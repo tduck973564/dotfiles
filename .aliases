@@ -1,4 +1,4 @@
-export CFLAGS="-Wall -Wextra -Werror=all,extra -pedantic-errors -Wshadow -Wformat=2 -Wformat-truncation -Wformat-overflow -Wundef -Wdocumentation"
+export CFLAGS="-Wall -Wextra -Werror -pedantic-errors -Wshadow -Wformat=2 -Wformat-truncation -Wformat-overflow -Wundef -Wdocumentation -Wno-error=documentation,shadow"
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 
