@@ -1,0 +1,7 @@
+export CFLAGS="-Wall -Wextra -Werror=all,extra -pedantic-errors -Wshadow -Wformat=2 -Wformat-truncation -Wformat-overflow -Wundef -Wdocumentation"
+export CC=clang
+
+alias clang="clang $C_COMPILER_ARGS"
+alias gcc="gcc $C_COMPILER_ARGS"
+
+alias new-meson-exec="meson init --build; meson setup build"
