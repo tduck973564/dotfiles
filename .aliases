@@ -5,4 +5,4 @@ export CXX=/usr/bin/clang++
 alias clang="clang $CFLAGS"
 alias gcc="gcc $CFLAGS"
 
-alias new-meson-exec="meson init --build; meson setup build"
+alias new-meson-exec="meson init --build; meson setup builddir"
